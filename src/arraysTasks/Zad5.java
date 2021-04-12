@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Zad5 {
 
-    static int middleElement(int[]array){
-        return array[(array.length-1)/2];
+    static int middleElement(int[] array) {
+        return array[(array.length - 1) / 2];
     }
 
     public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class Zad5 {
             tablica[i] = scanner.nextInt();
         }
         System.out.println("środkowy element tablicy to "
-                +middleElement(tablica));
+                + middleElement(tablica));
     }
 }
