@@ -20,8 +20,8 @@ public class Zad7 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj ilość elementów tablicy");
+        Scanner scanner = new Scanner(System.in);                          // udostępnienie użytkownikowi wprowadzenia danych
+        System.out.println("Podaj ilość elementów tablicy");               // z użyciem pętli for
         int aQuantity = scanner.nextInt();
         System.out.println("Podaj wartości kolejnych elementów tablicy");
         int[] array = new int[aQuantity];
