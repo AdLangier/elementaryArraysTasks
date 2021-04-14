@@ -34,7 +34,7 @@ public class Zad8 {
         int[] array = new int[aQuantity];
 
         int j = 0;                                             // przy nadawaniu wartości za pomocą pętli foreach,
-        for (int value : array) {                              // niezbędna jest zmienna pomocnicza ponieważ, żeby zapobiec nadaniu tej samej wartości wszystkim elementom
+        for (int value : array) {                              // niezbędna jest zmienna pomocnicza, żeby zapobiec nadaniu tej samej wartości wszystkim elementom
             array[j] = scanner.nextInt();
             j++;
 
