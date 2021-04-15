@@ -15,4 +15,16 @@ public class ArrayData {
         }
         return array;
     }
+
+    static String[] stringArrayInput() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj ilość elementów tablicy");
+        int n = scanner.nextInt();
+        String[] array = new String[n];
+        System.out.println("Wprowadź nazwy kolejnych elementów tablicy");
+        for (int i = 0; i < n; i++) {
+            array[i] = scanner.nextLine();
+        }
+        return array;
+     }
 }

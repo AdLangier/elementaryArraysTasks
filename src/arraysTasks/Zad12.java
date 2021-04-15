@@ -18,7 +18,7 @@ public class Zad12 {
 
         System.out.println("Dwa środkowe elementy tablicy to: ");
         for (int value : middleValues(array)) {                   // możliwość skrócenia kodu! w pętli foreach odrazu możemy wykorzystać metodę,
-            System.out.println(value);                            // która zwraca tablicę, bez konieczności jej wcześniejszej deklaracji
+            System.out.println(value);                            // która zwraca tablicę, bez konieczności wcześniejszego wykonania metody
         }
     }
 }
