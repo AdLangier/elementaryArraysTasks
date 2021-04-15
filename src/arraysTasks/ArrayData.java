@@ -23,7 +23,7 @@ public class ArrayData {
         String[] array = new String[n];
         System.out.println("Wprowadź nazwy kolejnych elementów tablicy");
         for (int i = 0; i < n; i++) {
-            array[i] = scanner.nextLine();
+            array[i] = scanner.next();               // WAŻNE - użyć scanner.next(), NIE nextLine() ponieważ metoda przeności do następnej linii i traktowane to jest jako nowy input
         }
         return array;
      }
